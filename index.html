@@ -726,7 +726,7 @@
   (function initTheme() {
     let saved = null;
     try { saved = localStorage.getItem('sirati-theme'); } catch (e) {}
-    applyTheme(saved === 'light' ? 'light' : 'dark');
+    applyTheme(saved === 'dark' ? 'dark' : 'light');
   })();
 
   // ── Language toggle ──
